@@ -36,13 +36,13 @@ let package = Package(
     .target(
       name: "MintegralAdapterTarget",
       dependencies: [
-        .target(name: "Adapter"),
+        .target(name: "MintegralAdapter"),
         .product(name: "MintegralAdSDK", package: "MintegralSDK"),
       ],
       path: "MintegralAdapterTarget"
     ),
     .binaryTarget(
-      name: "Adapter",
+      name: "MintegralAdapter",
       url:
         "https://dl.google.com/googleadmobadssdk/mediation/ios/mintegral/MintegralAdapter-7.7.9.0.zip",
       checksum: "9bf3a09ddbb3044b9a222e1064fda5782cc46a3f255f46ff405ba0826ff88b67"
