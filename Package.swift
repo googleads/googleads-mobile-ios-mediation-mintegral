@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.6
 
 // Copyright 2025 Google LLC.
 //
@@ -27,7 +27,6 @@ let package = Package(
   ],
   dependencies: [
     .package(
-      name: "MintegralSDK",
       url: "https://github.com/Mintegral-official/MintegralAdSDK-Swift-Package.git",
       exact: "7.7.9"
     )
@@ -37,7 +36,7 @@ let package = Package(
       name: "MintegralAdapterTarget",
       dependencies: [
         .target(name: "MintegralAdapter"),
-        .product(name: "MintegralAdSDK", package: "MintegralSDK"),
+        .product(name: "MintegralAdSDK", package: "MintegralAdSDK-Swift-Package"),
       ],
       path: "MintegralAdapterTarget"
     ),
