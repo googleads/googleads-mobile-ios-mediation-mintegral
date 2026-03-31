@@ -28,7 +28,7 @@ let package = Package(
   dependencies: [
     .package(
       url: "https://github.com/Mintegral-official/MintegralAdSDK-Swift-Package.git",
-      exact: "8.0.8"
+      exact: "8.0.9"
     ),
     .package(
       url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
@@ -48,7 +48,7 @@ let package = Package(
     .binaryTarget(
       name: "MintegralAdapter",
       url:
-        "https://dl.google.com/googleadmobadssdk/mediation/ios/mintegral/MintegralAdapter-8.0.8.0.zip",
+        "https://dl.google.com/googleadmobadssdk/mediation/ios/mintegral/MintegralAdapter-8.0.9.0.zip",
       checksum: "cfdd159386ceaf82c03f6ca237e0d7aee6494ba71e448f3dd3e7fdbd80456bca"
     ),
   ]
