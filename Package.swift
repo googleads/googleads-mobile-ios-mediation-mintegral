@@ -48,7 +48,7 @@ let package = Package(
     .binaryTarget(
       name: "MintegralAdapter",
       url:
-        "https://dl.google.com/googleadmobadssdk/mediation/ios/mintegral/MintegralAdapter-8.1.3.0.zip",
+        "https://dl.google.com/googleadmobadssdk/mediation/ios/mintegral/MintegralAdapter-8.1.3.1.zip",
       checksum: "8dc7bd0a3349a8f15f1c4f91a2e3e021981192f46349b8a8e788d2b6c4d304b8"
     ),
   ]
