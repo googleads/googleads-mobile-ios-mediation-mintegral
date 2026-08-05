@@ -49,7 +49,7 @@ let package = Package(
       name: "MintegralAdapter",
       url:
         "https://dl.google.com/googleadmobadssdk/mediation/ios/mintegral/MintegralAdapter-8.1.6.0.zip",
-      checksum: "d89a298598d8144129e7339c465b7a668b0564da48e8519c089215a3200bae8c"
+      checksum: "9e54be8b584a7a4a57452aa294d12fa65f9dcad64cf13cb2067eb7fe3583b7e7"
     ),
   ]
 )
